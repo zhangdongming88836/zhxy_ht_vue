@@ -1,0 +1,13 @@
+//后台框架尺寸
+//菜单宽度
+$navMenu:200px;
+$navMenuMin:64px;
+$layoutHeader:75px;
+//css3的兼容
+@mixin webkit($type,$value){
+    -webkit-#{$type}: $value;
+    -moz-#{$type}: $value;
+    -ms-#{$type}: $value;
+    -o-#{$type}:$value;
+    #{$type}: $value;
+}
